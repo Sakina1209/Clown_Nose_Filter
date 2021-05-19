@@ -1,0 +1,20 @@
+ h3{
+     font-size: 25 !important;
+ }
+ .btn-success:hover{
+ background-color: lightcoral;
+ }
+ canvas{
+     animation-name: vibgyor;
+     animation-duration: 5s;
+     animation-iteration-count: infinite;
+ }
+
+ @keyframes vibgyor{
+     from {
+         box-shadow: 1px 1px 40px rgb(77, 77, 250);
+     }
+     to {
+         box-shadow: 1px 1px 40px rgb(59, 1, 100);
+     }
+ }
